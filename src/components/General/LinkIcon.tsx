@@ -15,8 +15,8 @@ export default function LinkIcon(props: Props) {
   return (
     <a
       className={className}
-      download={file}
-      href={link ?? "#"}
+      download={Boolean(file)}
+      href={link || file || ""}
       target={target}
       title={link}
     >

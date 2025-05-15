@@ -8,7 +8,7 @@ function App() {
 
   return (
   <div className="dark:bg-primary-dark font-[NotoSansTangsa] relative bg-primary-light flex items-center flex-col box-border min-w-[300px] ">
-    <img src="/Images/bg.jpg" className="object-cover fixed inset-0 w-screen h-screen opacity-10 grayscale dark:grayscale-0 " alt=""/>
+    <img src="/Images/bg.jpg" className="object-cover fixed inset-0 w-screen h-screen opacity-10 grayscale dark:grayscale-0" alt=""/>
       <Header />
       <Facts />
       <Experience />

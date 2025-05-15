@@ -57,7 +57,7 @@ export default function header() {
           />
           <LinkIcon
             target="_self"
-            file="/SamuelMontes.pdf"
+            file="/src/assets/Updated CV EN.pdf"
             Icon={IconFileCertificate}
             className="hover:bg-css flex gap-2 dark:text-secondary-dark text-secondary-light hover:shadow-basic hover:shadow-css dark:bg-secondary-dark/10 bg-secondary-light/10 rounded-xl duration-100 hover:text-white"
           />

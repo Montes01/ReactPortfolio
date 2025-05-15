@@ -13,7 +13,7 @@ export default function Facts() {
         >
           {
             facts.map((el) => (
-              <FactCard text={el.text} value={el.value} />
+              <FactCard key={el.text} text={el.text} value={el.value} />
             ))
           }
         </section>

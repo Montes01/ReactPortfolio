@@ -24,7 +24,7 @@ export default function experience() {
             >
                 {
                     LaboralExperience.map((el) => (
-                        <div className="flex flex-col gap-4 items-center">
+                        <article key={el.company} className="flex flex-col gap-4 items-start bg-bg p-8 rounded-lg shadow-basic ">
                             <h3 className="text-2xl font-bold dark:text-secondary-dark text-secondary-light">
                                 {el.company}
                             </h3>
@@ -37,7 +37,7 @@ export default function experience() {
                             <p className="text-lg dark:text-secondary-dark text-secondary-light">
                                 {el.description}
                             </p>
-                        </div>
+                        </article>
                     ))
                 }
             </section>

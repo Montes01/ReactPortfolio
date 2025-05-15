@@ -101,16 +101,16 @@ export const technology = {
 };
 export const facts: fact[] = [
   {
-    value: "4th",
-    text: "place nationwide in the WorldSkills competition.",
-  },
-  {
-    value: "+6",
-    text: "Months of laboral experience in software development.",
+    value: "+1",
+    text: "Year of laboral experience in software development.",
   },
   {
     value: "+3",
     text: "years of experience in software development.",
+  },
+  {
+    value: "4th",
+    text: "place nationwide in the WorldSkills competition.",
   },
 ];
 export const projects: project[] = [
@@ -187,6 +187,13 @@ export const Icons = [
 ];
 
 export const LaboralExperience = [
+  {
+    title: "Angular Developer",
+    company: "ShuffleUp",
+    startDate: "Dec 2024",
+    endDate: "Present",
+    description: "I'm a front-end developer specializing in Angular, part of the team responsible for building quality web solutions. I work with technologies such as AngularJS, SASS, JavaScript, TypeScript, HTML, and CSS, and use tools like Cypress and Jest for testing. I manage code with Git and GitLab to maintain a collaborative and efficient process.",
+  },
   {
     title: "Frontend Developer",
     company: "PRAGMA S.A",

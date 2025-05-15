@@ -27,6 +27,7 @@ export default function Projects() {
         {
           projects.map((el) => (
             <ProjectCard
+              key={el.name}
               name={el.name}
               description={el.description}
               image={el.image!}

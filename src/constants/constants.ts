@@ -191,7 +191,7 @@ export const LaboralExperience = [
     title: "Angular Developer",
     company: "ShuffleUp",
     startDate: "Dec 2024",
-    endDate: "Present",
+    endDate: "Jan 2026",
     description: "I'm a front-end developer specializing in Angular, part of the team responsible for building quality web solutions. I work with technologies such as AngularJS, SASS, JavaScript, TypeScript, HTML, and CSS, and use tools like Cypress and Jest for testing. I manage code with Git and GitLab to maintain a collaborative and efficient process.",
   },
   {

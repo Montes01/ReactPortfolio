@@ -6,7 +6,7 @@ const ExperienceComponent = memo(function Experience() {
 
     return (
 
-        <section className="flex flex-col px-12 smaller:px-5 py-16 max-w-limit">
+        <section className="flex flex-col px-12 smaller:px-5 my-16">
             <div
                 className="flex gap-7 justify-start w-full items-center tiny:justify-center"
             >
@@ -26,7 +26,7 @@ const ExperienceComponent = memo(function Experience() {
                 
                 {
                     LaboralExperience.map((el: ExperienceType) => (
-                        <article key={el.company} className="relative py-6 pl-10">
+                        <article key={el.company} className="relative my-6 pl-10">
                             <div className="absolute left-[5px] top-2 w-5 h-5 rounded-full bg-neon border-4 dark:border-primary-dark border-primary-light shadow-[0_0_10px_rgba(9,153,255,0.5)]" />
                             
                             <div className="flex flex-col gap-2">

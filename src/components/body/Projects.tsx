@@ -10,7 +10,7 @@ const Projects = memo(function Projects() {
   return (
 
 
-    <section className="flex flex-col max-w-limit p-12 smaller:px-5 gap-9 items-center">
+    <section className="flex flex-col p-12 smaller:px-5 gap-9 items-center">
       <div className="flex gap-7 justify-start w-full items-center tiny:justify-center">
         <h2
           className="text-4xl font-bold dark:text-secondary-dark text-secondary-light"

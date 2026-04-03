@@ -13,7 +13,7 @@ const Header = memo(function header() {
   return (
 
     <header
-      className="w-full gap-12 mx-auto max-w-limit py-12 px-12 smaller:px-5 relative flex justify-between after:h-[1px] after:bottom-0 after:left-0 after:z-10 after:w-[20%] after:[content:''] after:absolute after:bg-gradient-to-r after:from-transparent after:to-neon/40 before:h-[1px] before:bottom-0 before:right-0 before:z-10 before:w-[20%] before:[content:''] before:absolute before:bg-gradient-to-l before:from-transparent before:to-neon/40 medium:flex-col items-center"
+      className="w-full gap-12 mx-auto py-12 px-12 smaller:px-5 relative flex justify-between after:h-[1px] after:bottom-0 after:left-0 after:z-10 after:w-[20%] after:[content:''] after:absolute after:bg-gradient-to-r after:from-transparent after:to-neon/40 before:h-[1px] before:bottom-0 before:right-0 before:z-10 before:w-[20%] before:[content:''] before:absolute before:bg-gradient-to-l before:from-transparent before:to-neon/40 medium:flex-col items-center"
     >
       <div
         className="absolute left-0 right-0 w-[60%] mx-auto bg-neon/40 h-[1px] bottom-0"

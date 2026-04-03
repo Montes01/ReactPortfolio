@@ -1,5 +1,5 @@
 import { Header } from './components/General';
-import { Facts, Experience, Slider } from './components/body';
+import { Facts, Experience, Slider, About } from './components/body';
 import './App.css'
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Facts />
       <Experience />
+      <About />
       <Slider />
       <footer className="flex p-20 dark:text-secondary-dark text-secondary-light tiny:text-sm tiny:px-2 text-center  ">
         <span>Made with love ❤ by Samuel Montes</span>

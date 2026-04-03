@@ -37,16 +37,15 @@
 }
 
 
-#slide {
-  animation: slide 50s infinite alternate linear;
-}
-
 @keyframes slide {
   from {
-    translate: 0;
+    transform: translateX(0);
   }
-
   to {
-    translate: calc(112px * 20 * -1);
+    transform: translateX(-50%);
   }
+}
+
+.animate-slide {
+  animation: slide 30s linear infinite;
 }

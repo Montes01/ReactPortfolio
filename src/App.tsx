@@ -5,7 +5,7 @@ function App() {
 
   return (
   <div className="dark:bg-primary-dark font-[NotoSansTangsa] relative bg-primary-light flex items-center flex-col box-border min-w-[300px] ">
-    <img src="/Images/bg.jpg" className="object-cover fixed inset-0 w-screen h-screen opacity-10 grayscale dark:grayscale-0" alt=""/>
+    <div className="fixed inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(9,153,255,0.3),transparent)] dark:bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(9,153,255,0.15),transparent)] pointer-events-none" />
       <Header />
       <Facts />
       <Experience />

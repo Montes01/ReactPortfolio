@@ -58,7 +58,11 @@ export default {
         short: "0 0 10px var(--tw-shadow-color)",
         basic: "0 0 20px var(--tw-shadow-color)",
         big: "0 0 30px var(--tw-shadow-color)",
-        giant: "0 0 40px var(--tw-shadow-color)"
+        giant: "0 0 40px var(--tw-shadow-color)",
+        top: "radial-gradient(ellipse 80% 50% at 50% -20%, var(--tw-shadow-color) 0%, transparent 100%)",
+      },
+      backgroundImage: {
+        'top-shadow': "radial-gradient(ellipse 80% 50% at 50% -20%, var(--tw-shadow-color) 0%, transparent 100%)",
       },
     },
   },

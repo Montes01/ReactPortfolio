@@ -1,4 +1,5 @@
 import { TablerIcon } from "@tabler/icons-react/dist/esm/tabler-icons-react";
+import { memo } from "react";
 
 
 interface Props {
@@ -9,7 +10,7 @@ interface Props {
   target: "_blank" | "_self";
 }
 
-export default function LinkIcon(props: Props) {
+function LinkIcon(props: Props) {
   const { Icon, className, link, file, target } = props;
 
   return (
@@ -25,4 +26,4 @@ export default function LinkIcon(props: Props) {
   );
 }
 
-
+export default memo(LinkIcon);

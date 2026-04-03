@@ -1,8 +1,5 @@
-import Header from './components/General/Header'
-import Facts from './components/body/Facts'
-import Experience from './components/body/Experience'
-import Projects from './components/body/Projects'
-import Slider from './components/body/Slider'
+import { Header } from './components/General';
+import { Facts, Experience, Projects, Slider } from './components/body';
 import './App.css'
 function App() {
 

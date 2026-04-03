@@ -1,8 +1,9 @@
 
 import { Icons } from "../../constants/constants";
+import { memo } from "react";
 
 
-export default function Slider() {
+const Slider = memo(function Slider() {
 
   return (
     <div
@@ -22,9 +23,11 @@ export default function Slider() {
         id="slide"
         className="flex p-12 items-center justify-start gap-12 w-[calc(112px*24)] dark:text-secondary-dark text-secondary-light"
       >
-        {Icons.map((Icon, i) => <Icon key={i} className="min-h-[112px] min-w-[112px]" />)}
-        {Icons.map((Icon, i) => <Icon key={i} className="min-h-[112px] min-w-[112px]" />)}
+        {Icons.map((Icon, i) => <Icon key={`first-${i}`} className="min-h-[112px] min-w-[112px]" />)}
+        {Icons.map((Icon, i) => <Icon key={`second-${i}`} className="min-h-[112px] min-w-[112px]" />)}
       </section>
     </div>
   )
-}
+});
+
+export default Slider;

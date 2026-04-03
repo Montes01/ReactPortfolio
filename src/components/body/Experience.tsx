@@ -1,6 +1,8 @@
-import { LaboralExperience } from "../../constants/constants.ts";
+import { LaboralExperience } from "../../constants/constants";
+import type { Experience as ExperienceType } from "../../constants/types";
+import { memo } from "react";
 
-export default function experience() {
+const ExperienceComponent = memo(function Experience() {
 
     return (
 
@@ -23,7 +25,7 @@ export default function experience() {
                 className="flex flex-wrap gap-12 justify-center items-center p-12 smaller:px-1 overflow-x-hidden"
             >
                 {
-                    LaboralExperience.map((el) => (
+                    LaboralExperience.map((el: ExperienceType) => (
                         <article key={el.company} className="flex flex-col gap-4 items-start bg-bg p-8 rounded-lg shadow-basic ">
                             <h3 className="text-2xl font-bold dark:text-secondary-dark text-secondary-light">
                                 {el.company}
@@ -44,4 +46,6 @@ export default function experience() {
         </section>
 
     )
-}
+});
+
+export default ExperienceComponent;

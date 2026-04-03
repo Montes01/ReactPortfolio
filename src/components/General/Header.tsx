@@ -6,9 +6,10 @@ import {
   IconFileCertificate,
 } from "@tabler/icons-react";
 import LinkIcon from "./LinkIcon";
+import { memo } from "react";
 
 
-export default function header() {
+const Header = memo(function header() {
   return (
 
     <header
@@ -66,4 +67,6 @@ export default function header() {
     </header>
 
   )
-}
+});
+
+export default Header;

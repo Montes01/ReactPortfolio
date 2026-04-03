@@ -1,11 +1,11 @@
-import React from "react";
+import React, { memo } from "react";
 import { IconLink } from "@tabler/icons-react";
 
 interface ImageHoverProps {
   deployUrl?: string;
 }
 
-const ImageHover: React.FC<ImageHoverProps> = ({ deployUrl }) => {
+const ImageHover: React.FC<ImageHoverProps> = memo(({ deployUrl }) => {
   return deployUrl ? (
     <a
       href={deployUrl}
@@ -22,6 +22,6 @@ const ImageHover: React.FC<ImageHoverProps> = ({ deployUrl }) => {
       </span>
     </div>
   );
-};
+});
 
 export default ImageHover;

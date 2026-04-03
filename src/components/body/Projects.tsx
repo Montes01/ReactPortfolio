@@ -1,9 +1,11 @@
 
 import ProjectCard from "../cards/ProjectCard";
 import { projects } from "../../constants/constants";
+import type { project } from "../../constants/types";
+import { memo } from "react";
 
 
-export default function Projects() {
+const Projects = memo(function Projects() {
 
   return (
 
@@ -25,7 +27,7 @@ export default function Projects() {
         className="flex flex-wrap gap-12 justify-center items-center p-12 smaller:px-1 overflow-x-hidden"
       >
         {
-          projects.map((el) => (
+          projects.map((el: project) => (
             <ProjectCard
               key={el.name}
               name={el.name}
@@ -33,7 +35,7 @@ export default function Projects() {
               image={el.image!}
               githubUrl={el.githubUrl!}
               deployUrl={el.deployUrl!}
-              technologies={el.technologies as any}
+              technologies={el.technologies}
             />
           ))
         }
@@ -42,4 +44,6 @@ export default function Projects() {
 
 
   )
-}
+});
+
+export default Projects;

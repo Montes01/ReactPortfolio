@@ -1,6 +1,6 @@
 import { facts } from "../../constants/constants";
-import type { fact } from "../../constants/types";
-import FactCard from "../cards/FactCard";
+import type { highlight } from "../../constants/types";
+import HighlightCard from "../cards/HighlightCard";
 import { memo } from "react";
 
 const Facts = memo(function Facts() {
@@ -12,8 +12,8 @@ const Facts = memo(function Facts() {
           className="flex flex-wrap justify-center items-center gap-12 py-20 text-white"
         >
           {
-            facts.map((el: fact) => (
-              <FactCard key={el.text} text={el.text} value={el.value} />
+            facts.map((el: highlight) => (
+              <HighlightCard key={el.text} text={el.text} value={el.value} />
             ))
           }
         </section>

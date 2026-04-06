@@ -7,10 +7,12 @@ export type Technology = {
   className: string;
 };
 
-export type fact = {
+export type highlight = {
   value: string;
   text: string;
 };
+
+export type fact = highlight;
 
 export type Experience = {
   title: string;

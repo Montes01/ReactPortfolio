@@ -1,7 +1,7 @@
-import type { fact } from "../../constants/types";
+import type { highlight } from "../../constants/types";
 import React, { useRef, useCallback, type MouseEvent } from "react";
 
-const FactCard = React.memo(({ text, value }: fact) => {
+const HighlightCard = React.memo(({ text, value }: highlight) => {
   const shadowRef = useRef<HTMLDivElement | null>(null);
   const contentRef = useRef<HTMLDivElement | null>(null);
 
@@ -46,4 +46,4 @@ const FactCard = React.memo(({ text, value }: fact) => {
   );
 });
 
-export default FactCard;
+export default HighlightCard;

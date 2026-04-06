@@ -1,6 +1,6 @@
-import type { fact } from "../types";
+import type { highlight } from "../types";
 
-export const facts: fact[] = [
+export const highlights: highlight[] = [
   {
     value: "+2",
     text: "Year of laboral experience in software development.",
@@ -10,3 +10,5 @@ export const facts: fact[] = [
     text: "place nationwide in the WorldSkills competition.",
   },
 ];
+
+export const facts = highlights;

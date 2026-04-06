@@ -45,6 +45,7 @@ export default {
           light: "#3545FF",
         },
         neon: "#09F",
+        highlight: "#09F",
       },
       maxWidth: {
         limit: "1200px",
